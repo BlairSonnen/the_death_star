@@ -1,13 +1,24 @@
 # Star Wars API Project
 
 ## Overview
-The Star Wars API Project is a web application that enables users to explore data from the Star Wars universe by interacting with the Star Wars API (SWAPI). The project focuses on gathering information about spaceships and characters, allowing users to analyze the data and visualize it through graphs. This project aims to provide insights into various attributes of Star Wars entities.
+The Star Wars API Project is a web application that enables users to explore data from the Star Wars universe by interacting with the Star Wars API (SWAPI). The project focuses on gathering information about the user's character preference, allowing users to compare the selected character data against the rest of the Star Wars world, and visualize it through graphs. This project aims to provide insights into various attributes of Star Wars entities.
 
 ## Features and Usage
-- Retrieve and display information on various Star Wars spaceships and characters from the SWAPI.
-- Collect user preferences to create a new DataFrame for analysis.
-- Generate visualizations (e.g., bar charts, scatter plots) to analyze relationships between different attributes (e.g., ship speeds, character heights).
-- Easy-to-use interface for searching and selecting specific spaceships and characters.
+- Retrieve and display information on various Star Wars characters, species, homeworlds and yes, even spaceships from the SWAPI.
+- Collect user preferences to create a new DataFrame for analysis:
+- The user will start their journey in this world by being asked:"What character would you like to be today?"
+    -They will then be presented with a list of character genders to select from
+    -After that selection, they will be asked what hair color will want (from a list of remaining options)
+    -And finally, they will be asked what eye color they want (from a list of remaining options)
+
+The result will then use the selected character for comaprison analysis to the rest of the Star Wars ecosystem.
+- Generate visualizations (e.g., bar charts, scatter plots) to analyze relationships between different attributes examples: 
+Home world - orbital rotation, population, surface water 
+Species - Height, Average life span, eye colors, skin colors
+Characters - height, weight
+Starships - speed, size ,ship speeds, character heights.
+
+- Easy-to-use interface for searching and selecting specific characters and learning how their information compares to the rest of the Star Wars ecosystem.
 
 ## Technologies Used
 - Fetch API for interacting with SWAPI root:
@@ -17,18 +28,17 @@ https://www.swapi.tech/api/
 
 ## Data Collection
 Users can collect data by selecting the following:
-- Spaceships: Users can choose from a list that includes starship names, speeds, and crew sizes.
-- Characters: Users can select character details such as names, heights, weights, and homeworlds.
+- Characters: Users can select character details such as gender, hair color, and eye color.
 The selected data is used to create a new DataFrame for further analysis and visualization.
 
 ### Example Data Collection Process:
-1. A user selects a spaceship and one or more characters.
+1. A user selects a character through a question and answer process.
 2. The application retrieves and stores the selected data into a structured format (e.g., an array of objects).
 3. This data is transformed into a DataFrame, where each entry corresponds to a spaceship and the associated character(s).
 
 ## Data Analysis and Visualization
-After data collection, the project analyzes relationships between different attributes of the selected spaceships and characters. Users can visualize:
-- **Spaceship Speeds** vs. **Character Heights**: A scatter plot to explore any correlation between these two metrics.
+After data collection, the project analyzes relationships between different attributes of the selected characters. Users can visualize:
+- **Character Heights**: A scatter plot to explore any correlation between these two metrics.
 - **Crew Size of Spaceships**: A bar chart showing the number of crew members per spaceship.
 
 ### Visualization Examples:
@@ -37,7 +47,7 @@ After data collection, the project analyzes relationships between different attr
 2. **Bar Chart of Spaceship Crew Sizes**
 - This bar chart displays the number of crew members required for each spaceship, helping users compare their capacities.
 3. **Character Analysis**
-- Graph of top 10 characters by film appearances.
+- Graph of character heights and weights
 4. **Planet Analysis**
 - Scatter plot of planets by population.
 5. **Starships Comparison**
