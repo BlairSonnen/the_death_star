@@ -11,14 +11,13 @@ The Star Wars API Project is a web application that enables users to explore dat
 - After that selection, they will be asked what hair color will want (from a list of remaining options)
 - And finally, they will be asked what eye color they want (from a list of remaining options)
 
-The result will then use the selected character for comaprison analysis to the rest of the Star Wars ecosystem.
-- Generate visualizations (e.g., bar charts, scatter plots) to analyze relationships between different attributes examples: 
+The result will then use the selected character for comaprison analysis to the rest of the Star Wars ecosystem and generate visualizations (e.g., bar charts, scatter plots) to analyze relationships between different attributes examples: 
 * Home world - orbital rotation, population, surface water 
 * Species - Height, Average life span, eye colors, skin colors
 * Characters - height, weight
 * Starships - speed, size ,ship speeds, character heights.
 
-- Easy-to-use interface for searching and selecting specific characters and learning how their information compares to the rest of the Star Wars ecosystem.
+Easy-to-use interface for searching and selecting specific characters and learning how their information compares to the rest of the Star Wars ecosystem.
 
 ## Technologies Used
 - Fetch API for interacting with SWAPI root:
