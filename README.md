@@ -3,6 +3,34 @@
 ## Overview
 The Star Wars API Project is a web application that enables users to explore data from the Star Wars universe by interacting with the Star Wars API (SWAPI). The project focuses on gathering information about the user's character preference, allowing users to compare the selected character data against the rest of the Star Wars world, and visualize it through graphs. This project aims to provide insights into various attributes of Star Wars entities.
 
+## Source Information and Installation
+
+API base URL: https://swapi.tech and https://swapi.dev
+
+- People: 82
+- Planets: 60
+- Films: 6
+- Species: 37
+- Vehicles: 39
+- Starships: 36
+
+### Installations necessary dependencies
+
+Clone this repository:
+```
+git clone <repository_url>
+```
+Then install:
+```
+pip install asyncio
+pip install aiohttp
+pip install ipywidgets
+```
+### Run the Jupyter Noteboox
+```
+jupyter notebook star_wars.ipynb
+```
+
 ## Features and Usage
 - Retrieve and display information on various Star Wars characters, species, homeworlds and yes, even spaceships from the SWAPI.
 - Collect user preferences to create a new DataFrame for analysis:
