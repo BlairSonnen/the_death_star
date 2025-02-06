@@ -1,4 +1,3 @@
-<img width="1185" alt="Screenshot 2025-02-06 at 10 59 53 AM" src="https://github.com/user-attachments/assets/a54f9765-f4f6-4ef0-8c03-987d44fda2ef" /># Star Wars API Project
 
 ## Overview
 The Star Wars API Project is a web application that enables users to explore data from the Star Wars universe by interacting with the Star Wars API (SWAPI). The project focuses on gathering information about the user's character preference, allowing users to compare the selected character data against the rest of the Star Wars world, and visualize it through graphs. This project aims to provide insights into various attributes of Star Wars entities.
@@ -49,6 +48,7 @@ jupyter notebook star_wars.ipynb
 
 ## Exploratory Data Analysis (EDA)
 - Retrieve and display a plot of character height sorted from shortest to tallest and highlight selected character.
+<img width="1185" alt="Screenshot 2025-02-06 at 10 59 53 AM" src="https://github.com/user-attachments/assets/a54f9765-f4f6-4ef0-8c03-987d44fda2ef" /># Star Wars API Project
 - Retrieve and display information on various Star Wars characters, species, homeworlds and yes, even spaceships from the SWAPI.
 - Collect user preferences to create a new DataFrame for analysis:
 - The user will start their journey in this world by being asked:"What character would you like to be today?"
