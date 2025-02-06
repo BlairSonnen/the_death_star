@@ -87,21 +87,10 @@ The result will then store the selected character for comaprison analysis to the
 <img width="865" alt="Screenshot 2025-02-06 at 11 32 47 AM" src="https://github.com/user-attachments/assets/2a42df13-d6d5-4115-9e7e-35596a5f3871" />
 
 
-#Easy-to-use interface for searching and selecting specific characters and learning how their information compares to the rest of the Star Wars ecosystem.
+# An Easy-to-use interface for searching and selecting specific characters and learning how their information compares to the rest of the Star Wars ecosystem.
 
 
 
-### Visualization Examples:
-1. **Scatter Plot of Spaceship Speeds vs Character Heights**
-- This graph illustrates whether there's a significant correlation between the speed of the ships and the heights of characters.
-2. **Bar Chart of Spaceship Crew Sizes**
-- This bar chart displays the number of crew members required for each spaceship, helping users compare their capacities.
-3. **Character Analysis**
-- Graph of character heights and weights
-4. **Planet Analysis**
-- Scatter plot of planets by population.
-5. **Starships Comparison**
-- Bar chart comparing starship capabilities.
 
 
 ## License
