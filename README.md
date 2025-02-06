@@ -92,7 +92,6 @@ The result will then store the selected character for comaprison analysis to the
 
 
 
-
 ## License
 © Copyright 2015, Paul Hallett. Revision cb9195fc.
 All rights reserved.
@@ -104,4 +103,5 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## Acknowledgments
 - [SWAPI](https://swapi.dev/) for providing the Star Wars API.
+- Star Wars and all associated names are copyright Lucasfilm ltd.
 
