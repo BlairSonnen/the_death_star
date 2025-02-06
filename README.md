@@ -75,18 +75,21 @@ Running the application will result in the following display.
 
 The result will then store the selected character for comaprison analysis to the rest of the Star Wars ecosystem and generate visualizations (e.g., bar charts, scatter plots) to analyze relationships between different attributes examples: 
 
-* Home world - orbital rotation, population, surface water 
-* Species - Height, Average life span, eye colors, skin colors
-* Characters - height, weight
-* Starships - speed, size ,ship speeds, character heights.
+* Characters - Height, Mass comparisons
+* Home world - Diameter, Population comparisons
+* Species - Life span, Height comparisons
+* Starships - Speed, Capacity comparisons
 
-Easy-to-use interface for searching and selecting specific characters and learning how their information compares to the rest of the Star Wars ecosystem.
+### Visualization Examples:
+
+1. **Bar Chart of Character Height**
+- This bar chart displays the height of all characters as compared to the selected character.
+<img width="865" alt="Screenshot 2025-02-06 at 11 32 47 AM" src="https://github.com/user-attachments/assets/2a42df13-d6d5-4115-9e7e-35596a5f3871" />
 
 
-## Data Analysis and Visualization
-After data collection, the project analyzes relationships between different attributes of the selected characters. Users can visualize:
-- **Character Heights**: A scatter plot to explore any correlation between these two metrics.
-- **Crew Size of Spaceships**: A bar chart showing the number of crew members per spaceship.
+#Easy-to-use interface for searching and selecting specific characters and learning how their information compares to the rest of the Star Wars ecosystem.
+
+
 
 ### Visualization Examples:
 1. **Scatter Plot of Spaceship Speeds vs Character Heights**
