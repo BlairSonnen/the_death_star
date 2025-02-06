@@ -1,4 +1,4 @@
-# Star Wars API Project
+<img width="1185" alt="Screenshot 2025-02-06 at 10 59 53 AM" src="https://github.com/user-attachments/assets/a54f9765-f4f6-4ef0-8c03-987d44fda2ef" /># Star Wars API Project
 
 ## Overview
 The Star Wars API Project is a web application that enables users to explore data from the Star Wars universe by interacting with the Star Wars API (SWAPI). The project focuses on gathering information about the user's character preference, allowing users to compare the selected character data against the rest of the Star Wars world, and visualize it through graphs. This project aims to provide insights into various attributes of Star Wars entities.
@@ -7,12 +7,12 @@ The Star Wars API Project is a web application that enables users to explore dat
 
 API base URL: https://swapi.tech and https://swapi.dev
 
-- People: 82
-- Planets: 60
-- Films: 6
-- Species: 37
-- Vehicles: 39
-- Starships: 36
+- People: 82 rows X 16 columns
+- Planets: 60 rows X 14 columns
+- Films: 6 rows X 14 columns
+- Species: 37 rows X 15 columns
+- Vehicles: 39 rows X 16 columns
+- Starships: 36 rows X 18 columns
 
 ### Installations necessary dependencies
 
@@ -31,7 +31,24 @@ pip install ipywidgets
 jupyter notebook star_wars.ipynb
 ```
 
-## Features and Usage
+## Features
+- People: name	height	mass	hair_color	skin_color	eye_color	birth_year	gender	homeworld	films	species	vehicles	starships	created	edited	url
+- Planets: name	rotation_period	orbital_period	diameter	climate	gravity	terrain	surface_water	population	residents	films	created	edited	url
+- Films: title	episode_id	opening_crawl	director	producer	release_date	characters	planets	starships	vehicles	species	created	edited	url
+- Species: name	classification	designation	average_height	skin_colors	hair_colors	eye_colors	average_lifespan	homeworld	language	people	films	created	edited	url
+- Vehicles: name	model	manufacturer	cost_in_credits	length	max_atmosphering_speed	crew	passengers	cargo_capacity	consumables	vehicle_class	pilots	films	created	edited	url
+- Starships: name	model	manufacturer	cost_in_credits	length	max_atmosphering_speed	crew	passengers	cargo_capacity	consumables	hyperdrive_rating	MGLT	starship_class	pilots	films	created	edited	url
+
+## Data Cleaning
+- Converted all non-male and non-female entires to non-binary
+- Convert height and mass columns to int type from object. Verified with basic statistics.
+- Created a function that categorizes character mass into ranges: '0-50', '51-100', 'Over 100'
+- Clean up species data that is stored as empty arrays.
+- Clean up the classification column to convert reptilian to reptile and mammals to mammal.
+- Created a function to retrieve all information from the other dataframes based on the person's homeworld, species, starships, and vehicles. 
+
+## Exploratory Data Analysis (EDA)
+- Retrieve and display a plot of character height sorted from shortest to tallest and highlight selected character.
 - Retrieve and display information on various Star Wars characters, species, homeworlds and yes, even spaceships from the SWAPI.
 - Collect user preferences to create a new DataFrame for analysis:
 - The user will start their journey in this world by being asked:"What character would you like to be today?"
