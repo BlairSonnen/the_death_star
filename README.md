@@ -49,14 +49,32 @@ jupyter notebook star_wars.ipynb
 ## Exploratory Data Analysis (EDA)
 - Retrieve and display a plot of character height sorted from shortest to tallest and highlight selected character.
 <img width="1185" alt="Screenshot 2025-02-06 at 10 59 53 AM" src="https://github.com/user-attachments/assets/a54f9765-f4f6-4ef0-8c03-987d44fda2ef" /># Star Wars API Project
-- Retrieve and display information on various Star Wars characters, species, homeworlds and yes, even spaceships from the SWAPI.
-- Collect user preferences to create a new DataFrame for analysis:
+
+Other retrieve and plot display examples from the SWAPI.
+- Character Mass
+- Surface Water Percentage by Planet
+- Population Density by Planet, and same plot with Log10 scale
+- Lifespan by Species
+- Starship Cost
+- Starship Capacity
+- Film Count by Character, Planet, Species, Starship
 - The user will start their journey in this world by being asked:"What character would you like to be today?"
 - They will then be presented with a list of character genders to select from
 - After that selection, they will be asked what hair color will want (from a list of remaining options)
 - And finally, they will be asked what eye color they want (from a list of remaining options)
 
-The result will then use the selected character for comaprison analysis to the rest of the Star Wars ecosystem and generate visualizations (e.g., bar charts, scatter plots) to analyze relationships between different attributes examples: 
+## Usage
+Running the application will result in the following display.
+
+<img width="693" alt="Screenshot 2025-02-06 at 11 11 29 AM" src="https://github.com/user-attachments/assets/c3e7068d-57f3-4072-8e4d-5d2811d3f716" />
+
+1. A user selects a character through a question and answer process.
+   Users can select character details such as gender, species, and mass range.
+3. The application retrieves and stores the selected data into a structured format (e.g., an array of objects).
+4. This data is transformed into a DataFrame, where each entry corresponds to a spaceship and the associated character(s).
+
+The result will then store the selected character for comaprison analysis to the rest of the Star Wars ecosystem and generate visualizations (e.g., bar charts, scatter plots) to analyze relationships between different attributes examples: 
+
 * Home world - orbital rotation, population, surface water 
 * Species - Height, Average life span, eye colors, skin colors
 * Characters - height, weight
@@ -64,21 +82,6 @@ The result will then use the selected character for comaprison analysis to the r
 
 Easy-to-use interface for searching and selecting specific characters and learning how their information compares to the rest of the Star Wars ecosystem.
 
-## Technologies Used
-- Fetch API for interacting with SWAPI root:
-https://www.swapi.tech/api/
-- Data manipulation with Python 
-- Pandas, Json, Numpy, Urllib.request, Matplotlib.pyplot
-
-## Data Collection
-Users can collect data by selecting the following:
-- Characters: Users can select character details such as gender, hair color, and eye color.
-The selected data is used to create a new DataFrame for further analysis and visualization.
-
-### Example Data Collection Process:
-1. A user selects a character through a question and answer process.
-2. The application retrieves and stores the selected data into a structured format (e.g., an array of objects).
-3. This data is transformed into a DataFrame, where each entry corresponds to a spaceship and the associated character(s).
 
 ## Data Analysis and Visualization
 After data collection, the project analyzes relationships between different attributes of the selected characters. Users can visualize:
