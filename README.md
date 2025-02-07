@@ -4,7 +4,7 @@ The Star Wars API Project is a web application that enables users to explore dat
 
 ## Source Information and Installation
 
-API base URL: https://swapi.tech and https://swapi.dev
+API base URL: https://swapi.dev
 
 - People: 82 rows X 16 columns
 - Planets: 60 rows X 14 columns
